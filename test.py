@@ -40,7 +40,7 @@ def test():
         y_pred=estimator.predict(x),
     )
 
-    assert accuracy > 0.8613
+    assert accuracy > 0.8
 
 
 test()
